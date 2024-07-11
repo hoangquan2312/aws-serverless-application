@@ -1,6 +1,6 @@
-import { TodosAccess } from './dataLayer/todosAccess'
-import { AttachmentUtils } from './fileStorage/attachmentUtils'
-import { createLogger } from '../utils/logger'
+import { TodosAccess } from '../dataLayer/todosAccess.mjs'
+import { AttachmentUtils } from '../fileStorage/attachmentUtils.mjs'
+import { createLogger } from '../utils/logger.mjs'
 import * as uuid from 'uuid'
 
 const logger = createLogger('TodosAccess')
